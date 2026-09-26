@@ -1,23 +1,60 @@
 aid: aquahydrex
+
 name: AquaHydrex
-description: 'AquaHydrex is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: 'AquaHydrex is a private‑market technology company that provides liquidity solutions, secondary market platforms, and equity administration services for private companies and investors. It enables buying and selling of pre‑IPO shares, offers structured liquidity programs, and delivers data intelligence on private market pricing and valuations. Through its marketplace, AquaHydrex connects vetted buyers with shareholders, facilitating transparent and regulated transactions in the private equity space.'
+
 url: https://raw.githubusercontent.com/api-evangelist/aquahydrex/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-25 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-25'
+
 modified: '2026-09-25'
+
 tags:
-- Company
-apis: []
+- Private-Market
+- Liquidity
+- Equity-Administration
+- Secondary-Market
+- Pre-IPO
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/aquahydrex-hosts.yml
+- type: Vendors
+  url: vendors/aquahydrex-vendors.yml
+- type: DomainSecurity
+  url: security/aquahydrex-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://www.nasdaqprivatemarket.com/company/aquahydrex/
+
+apis: []
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: No API documentation or machine‑readable contract was found on AquaHydrex's site.
+  evidence:
+    - url: https://www.nasdaqprivatemarket.com/company/aquahydrex/
+      status: 200
+  checked: 2026-09-25
+x-enrichment:
+  date: '2026-09-25'
+  status: enriched
+  artifacts_added: 3
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local
