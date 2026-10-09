@@ -2,11 +2,32 @@ aid: aquahydrex
 
 name: AquaHydrex
 
-description: 'AquaHydrex is a private‑market technology company that provides liquidity solutions, secondary market platforms, and equity administration services for private companies and investors. It enables buying and selling of pre‑IPO shares, offers structured liquidity programs, and delivers data intelligence on private market pricing and valuations. Through its marketplace, AquaHydrex connects vetted buyers with shareholders, facilitating transparent and regulated transactions in the private equity space.'
+description: >-
+  AquaHydrex was a green-hydrogen technology company that developed a redesigned high-pressure
+  alkaline water electrolysis system for large-scale hydrogen production. Founded in 2012 as a
+  spin-out of the University of Wollongong and Monash University (ARC Centre of Excellence for
+  Electromaterials Science), it opened its North American headquarters in Louisville, Colorado in
+  2015 and raised about $25 million, including a January 2023 round led by AP Ventures with Aramco
+  Ventures. It filed for Chapter 7 bankruptcy in October 2023 (D. Colo. 1:23-bk-14706). It published
+  no API. It was harvested from a Nasdaq Private Market listing, which an earlier pass mistook for
+  the company and described as a liquidity and secondary-market platform.
 
 url: https://raw.githubusercontent.com/api-evangelist/aquahydrex/refs/heads/main/apis.yml
 
 x-type: company
+x-status: defunct
+x-shutdown-date: '2023-10'
+x-shutdown-note: >-
+  Filed Chapter 7 bankruptcy in October 2023 (U.S. Bankruptcy Court, D. Colorado, case
+  1:23-bk-14706); intellectual property sold in the liquidation.
+x-shutdown-source:
+- https://www.inforuptcy.com/browse-filings/colorado-bankruptcy-court/1:23-bk-14706/bankruptcy-case-aquahydrex-inc
+- https://bizwest.com/?p=373524
+x-domain-status: reassigned
+x-domain-note: >-
+  aquahydrex.com answered 200 on 2026-10-08 with an unrelated Indonesian slot-gambling page
+  (title "JP4D : Situs Toto Slot 4D Gacor"). Not the company; deliberately not wired as Website.
+x-harvest-source-url: https://www.nasdaqprivatemarket.com/company/aquahydrex/
 
 x-source: harvest:secondary-market
 
@@ -20,17 +41,17 @@ created: '2026-09-25'
 modified: '2026-09-25'
 
 tags:
-- Private-Market
-- Liquidity
-- Equity-Administration
-- Secondary Market
-- Pre-IPO
+- Company
+- Defunct
+- Hydrogen
+- Green Hydrogen
+- Clean Energy
 tags_raw:
-- Private-Market
-- Liquidity
-- Equity-Administration
-- Secondary-Market
-- Pre-IPO
+- Company
+- Defunct
+- Hydrogen
+- Green Hydrogen
+- Clean Energy
 
 maintainers:
 - FN: Kin Lane
@@ -45,8 +66,6 @@ common:
   url: vendors/aquahydrex-vendors.yml
 - type: DomainSecurity
   url: security/aquahydrex-domain-security.yml
-- type: Website
-  url: https://www.nasdaqprivatemarket.com/company/aquahydrex/
 
 apis: []
 
@@ -64,3 +83,9 @@ x-enrichment:
   artifacts_added: 3
   pass: modular-v1
   engine: identity=local,contract=local,surfaces=local,docs=local
+x-tags-removed:
+- Private-Market
+- Liquidity
+- Equity-Administration
+- Secondary Market
+- Pre-IPO
