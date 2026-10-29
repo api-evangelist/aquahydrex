@@ -64,5 +64,38 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-AquaHydrex is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
+
+AquaHydrex was a green-hydrogen technology company that developed a redesigned high-pressure alkaline water electrolysis system for large-scale hydrogen production. Founded in 2012 as a spin-out of the University of Wollongong and Monash University (ARC Centre of Excellence for Electromaterials Science), it opened its North American headquarters in Louisville, Colorado in 2015 and raised about $25 million, including a January 2023 round led by AP Ventures with Aramco Ventures. It filed for Chapter 7 bankruptcy in October 2023 (D. Colo. 1:23-bk-14706). It published no API. It was harvested from a Nasdaq Private Market listing, which an earlier pass mistook for the company and described as a liquidity and secondary-market platform.
+
+**Areas:** Company · Defunct · Hydrogen · Green Hydrogen · Clean Energy
+
+## AquaHydrex on APIs.io (historical record)
+
+Everything profiled for AquaHydrex is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/aquahydrex/](https://apis.io/providers/aquahydrex/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Aquahydrex Domain Security](https://apis.io/security/aquahydrex/aquahydrex-domain-security/)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AquaHydrex: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/aquahydrex/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
